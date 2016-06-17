@@ -17,6 +17,9 @@ public class Cataloging extends Record {
         fieldSelectorByLabel.put("Production place",            "csc-object-production-place");
         fieldSelectorByLabel.put("Technique",                   "csc-object-production-technique");
         fieldSelectorByLabel.put("Field collection event name", "csc-collection-object-fieldColEventName");
+        fieldSelectorByLabel.put("Price - value",               "csc-object-history-association-exchange-price-value");
+        fieldSelectorByLabel.put("Number of Objects",           "csc-object-identification-number-objects");
+        fieldSelectorByLabel.put("Value",                       "csc-dimension-value");
 
 
 
