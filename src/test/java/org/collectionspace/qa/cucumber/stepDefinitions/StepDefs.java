@@ -445,6 +445,14 @@ public class StepDefs {
         clearAllFieldsFor(recordType, driver);
     }
 
+    @And("^(?:the user |user )?clears the \"([^\"]*)\" \"([^\"]*)\" field$")
+    public void clears_the_field(String recordType , String fieldName) throws Throwable {
+        String selector;
+        WebElement element = findElementWithLabel(driver, recordType, fieldName);
+        element.clear();
+        new WebDriverWait(driver, 10);
+    }
+
     @And("^all fields of the \"([^\"]*)\" record should be empty$")
     public void all_fields_should_be_empty(String recordType) throws Throwable {
         verifyAllFieldsCleared(recordType, driver);
