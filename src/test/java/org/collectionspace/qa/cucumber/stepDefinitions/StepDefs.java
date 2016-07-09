@@ -10,6 +10,7 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
+import org.collectionspace.qa.utils.Config;
 import org.collectionspace.qa.utils.Pages;
 import org.collectionspace.qa.utils.ElementMappings;
 import org.openqa.selenium.By;
@@ -43,10 +44,9 @@ public class StepDefs {
     private Selenium selenium;
     private ElementMappings mappings = new ElementMappings();
     private SimpleDateFormat isoDateFormat = new SimpleDateFormat("yyyy-MM-dd");
-
-    public static String
-            BASE_URL = "http://qa.collectionspace.org:8180/collectionspace/ui/core/html/";
-
+    
+    public static Config config = new Config();
+    public static String BASE_URL = config.getBaseURL();
 
     public StepDefs() {
         driver = new FirefoxDriver();
