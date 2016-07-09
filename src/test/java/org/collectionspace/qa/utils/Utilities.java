@@ -20,12 +20,14 @@ import org.collectionspace.qa.records.*;
 
 import static org.openqa.selenium.support.ui.ExpectedConditions.*;
 import org.openqa.selenium.support.ui.*;
+
 public class Utilities {
 
-    public static String
-        LOGIN_PATH = "index.html",
-        USERNAME = "admin@core.collectionspace.org",
-        PASSWORD = "Administrator";
+    public static String LOGIN_PATH = "index.html";
+    
+    public static Config config = new Config();
+    public static String USERNAME = config.getUsername(),
+    public static String PASSWORD = config.getPassword();
 
     public static void login(WebDriver driver, String baseURL){
         driver.get(baseURL + LOGIN_PATH);
