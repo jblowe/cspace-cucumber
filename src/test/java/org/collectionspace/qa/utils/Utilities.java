@@ -26,7 +26,7 @@ public class Utilities {
     public static String LOGIN_PATH = "index.html";
     
     public static Config config = new Config();
-    public static String USERNAME = config.getUsername(),
+    public static String USERNAME = config.getUsername();
     public static String PASSWORD = config.getPassword();
 
     public static void login(WebDriver driver, String baseURL){
