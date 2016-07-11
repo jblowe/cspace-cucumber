@@ -49,7 +49,7 @@ public class StepDefs {
     public static String BASE_URL = config.getBaseURL();
 
     public StepDefs() {
-        driver = new FirefoxDriver();
+        driver = config.getBrowserDriver();
         wait = new WebDriverWait(driver, 10);
         driver.manage().window().maximize();
 
