@@ -1,7 +1,7 @@
 #Created by Forest Yang on 1/8/2016
 # Working as of June 3 2016
-@advancedsearch
 
+@advancedsearch @intake
 Feature: Advanced Search - Intake
 
   #Test1

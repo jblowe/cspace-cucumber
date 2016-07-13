@@ -1,7 +1,7 @@
 # Created by Cesar Villalobos on 01/07/2016
 
-@advancedsearch
-Feature: Advanced Search results Add to Record
+@advancedsearch @results_add_to_record
+Feature: Advanced Search - Results Add to Record
     Adding search results to a group
 
     Scenario: Creating temporary records

@@ -1,8 +1,8 @@
 # Created by Cesar Villalobos on 01/07/2016
 # Working as of May 31st 2016
 
-@advancedsearch
-Feature: Advanced Search ­ Condition Check
+@advancedsearch @condition_check
+Feature: Advanced Search - Condition Check
 	Creating a Condition Check record and searching for it based on various terms
 
     Scenario: Advanced Search Fields

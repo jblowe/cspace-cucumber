@@ -1,6 +1,6 @@
 #Created by Forest Yang on 1/11/2016
 
-@advancedsearchvocab
+@advancedsearchvocab @person
 Feature: Advanced Search - Person
 
   #Test1

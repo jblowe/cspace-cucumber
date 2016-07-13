@@ -1,7 +1,7 @@
 # Created by Cesar Villalobos on 01/07/2016
 # Working as of June 1 2016
 
-@advancedsearch
+@advancedsearch @exhibition_planning
 Feature: Advanced Search ­– Exhibition Planning
         Searching for records based on certain criteria on the advanced search page
 

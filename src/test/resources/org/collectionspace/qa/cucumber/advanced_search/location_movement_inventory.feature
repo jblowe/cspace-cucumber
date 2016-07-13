@@ -1,6 +1,6 @@
 #Created by Forest Yang on 12/29/2015
 
-@advancedsearch
+@advancedsearch @location_movement_inventory
 Feature: Advanced Search - Location / Movement / Inventory
 
   #Test1

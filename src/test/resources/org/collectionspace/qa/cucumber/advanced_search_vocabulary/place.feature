@@ -1,6 +1,6 @@
 #Created by Forest Yang on 1/9/2016
 
-@advancedsearchvocab
+@advancedsearchvocab @place
 Feature: Advanced Search - Place
 
   #Test1

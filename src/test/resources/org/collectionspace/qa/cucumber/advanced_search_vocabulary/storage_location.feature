@@ -1,6 +1,6 @@
 #Created by Forest Yang on 1/9/2016
 
-@advancedsearchvocab
+@advancedsearchvocab @storage_location
 Feature: Advanced Search - Storage Location
 
 	#Test1

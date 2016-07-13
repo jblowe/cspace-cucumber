@@ -2,7 +2,7 @@
 # OBJECTS EXIT - CQA 83
 # Working as of June 15 2016
 
-@advancedsearch
+@advancedsearch @object_exit
 Feature: Advanced Search - Object Exit
 #       And selects "Dataset" from the "Media Handling" "Types" dropdown
 #       And selects "Media Handling" from the "AdvancedSearch" "record type" dropdown

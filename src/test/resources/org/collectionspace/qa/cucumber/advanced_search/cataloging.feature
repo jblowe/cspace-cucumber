@@ -1,7 +1,7 @@
 # Created by Cesar Villalobos on 01/07/2016
 
-@advancedsearch
-Feature: Advanced Search ­Cataloging
+@advancedsearch @cataloging
+Feature: Advanced Search - Cataloging
 
     Scenario: Advanced Search Fields
         # To do: Change selects to clicks on result for autocomplete

@@ -2,8 +2,8 @@
 # CQA-75
 # Working as of 05/04/16 with occasional errors
 
-@advancedsearch
-Feature: Advanced Search Group
+@advancedsearch @group
+Feature: Advanced Search - Group
     Searching for a recently made group
 
     Scenario: User Creates a Group Record and then Searches for it. The record is then deleted.

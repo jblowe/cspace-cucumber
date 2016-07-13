@@ -1,6 +1,6 @@
 # Created by Regina Xu on 2/26/16
 
-# @advancedsearch
+@advancedsearch @advanced_keyword_search
 Feature: Advanced Keyword Search
     Scenario: Looking for 'Sesame' with a Cataloging record
         # Given user is on the "My CollectionSpace" page

@@ -1,9 +1,9 @@
 # Created by Cesar Villalobos on 9/15/15
 # Acquisition source is not working as desired
 # Everything else works as of May 31
-@advancedsearch
 
-Feature: Advanced Search ­ Acquisition
+@advancedsearch @acquisition
+Feature: Advanced Search Acquisition
    Searching for a record based on boolean-search as well as regular search terms
 
    Scenario: Advanced Search Fields and wildcard

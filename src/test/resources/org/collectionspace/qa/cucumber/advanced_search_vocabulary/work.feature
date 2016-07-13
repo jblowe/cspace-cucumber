@@ -1,6 +1,6 @@
 #Created by Forest Yang on 1/8/2016
 
-@advancedsearchvocab
+@advancedsearchvocab @work
 Feature: Advanced Search - Work
 
   #Test1

@@ -1,6 +1,6 @@
 #Created by Forest Yang on 1/5/2015
 
-@advancedsearch
+@advancedsearch @valuation
 Feature: Advanced Search - Valuation
 
   #Test1
