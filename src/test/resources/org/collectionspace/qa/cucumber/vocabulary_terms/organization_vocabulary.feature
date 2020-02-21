@@ -297,9 +297,9 @@ Feature: Organization Vocabulary Page
 #         From Create New screen, create a new Organization.
 #         Enter "Museum of the Moving Image" in the Display Name field
 #         Create a second repeatable term block
-#         Enter "Moving Image" in the second Display Name field
+#         Enter "Moving Image" in the "second" Display Name field
 #         Create a third repeatable term block
-#         Enter "American Museum of the Moving Image" in the third Display Name field
+#         Enter "American Museum of the Moving Image" in the "third" Display Name field
 #         Mark "Moving Image" as preferred
 #         Save the record
 #         Create a new Loan In record and fill in the required fields
@@ -336,9 +336,9 @@ Feature: Organization Vocabulary Page
 #         From Create New screen, create a new Organization.
 #         Enter "Museum of the Moving Image" in the Display Name field
 #         Create a second repeatable term block
-#         Enter "Moving Image" in the second Display Name field
+#         Enter "Moving Image" in the "second" Display Name field
 #         Create a third repeatable term block
-#         Enter "American Museum of the Moving Image" in the third Display Name field
+#         Enter "American Museum of the Moving Image" in the "third" Display Name field
 #         Mark "Moving Image" as preferred
 #         Save the record
 #         Create a new Loan In record and fill in the required fields

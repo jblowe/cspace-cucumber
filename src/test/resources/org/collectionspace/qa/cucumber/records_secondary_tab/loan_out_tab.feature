@@ -39,7 +39,7 @@ Feature: Loan Out Tab
 	    Then the search results should contain "CQA112.2" 
 
 	    And selects the box with result "CQA112.3" 
-	    And selects the box with result "CQA112.2"  
+	    And selects the box with result "CQA112.2" 
 	    And clicks the "Add to current record" button  
 
 	    #Expected, Group #1

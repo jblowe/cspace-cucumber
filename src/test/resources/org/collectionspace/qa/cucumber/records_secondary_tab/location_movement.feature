@@ -37,7 +37,7 @@ Feature: Location/Movement/Inventory Control Tab
         Then the search results should contain "CQA113.2" 
 
         And selects the box with result "CQA113.3" 
-        And selects the box with result "CQA113.2"  
+        And selects the box with result "CQA113.2" 
         And clicks the "Add to current record" button
 
         #Expected, Group #1

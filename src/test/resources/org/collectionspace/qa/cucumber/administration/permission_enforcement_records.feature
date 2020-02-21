@@ -9,9 +9,9 @@ Feature: Permission Enforcement
   Scenario: Create New Page
     Given user is logged in as "User I" 
     Given user is on the "Create New" page
-    Then the "Record Type A" radio button should not be present
-    Then the "Record Type B" radio button should not be present
-    Then the "Record Type C" radio button should be present 
+    Then the "Record Type A" radio button should "not be" present
+    Then the "Record Type B" radio button should "not be" present
+    Then the "Record Type C" radio button should "be" present
       And clicks on the Create button 
     Then new record should be created
       And fills out required fields
@@ -70,16 +70,16 @@ Feature: Permission Enforcement
     Then the "Record Type D" tab is present
       And selects the "Record Type B" tab
       And clicks on a "Record Type B" record
-    Then the record should be read only
+    Then the record should be in "Read Only" mode
     Then the "add" button should not be present
       And selects the "Record Type D" tab
       And clicks on a "Record Type D" record
-    Then the record should be editable
+    Then the record should be in "Edit" mode
     Then the "add" button should be present
     Then the "Create New" button should be present
    #Test43 continued from Test41: Record Read Only Mode
       And clicks on a "Record Type B" related record that has a record of Type A, C, and D related
-    Then the record should be read only
+    Then the record should be in "Read Only" mode
     Then the "Cancel" button should not be present
     Then the "Save" button should not be present
     Then the "Delete" button should not be present
@@ -95,11 +95,11 @@ Feature: Permission Enforcement
     Then the "Record Type D" tab is present
       And selects the "Record Type B" tab
       And clicks on a "Record Type B" record
-    Then the record should be read only
+    Then the record should be in "Read Only" mode
     Then the "add" button should not be present
       And selects the "Record Type D" tab
       And clicks on a "Record type D" record
-    Then the record should be editable
+    Then the record should be in "Edit" mode
     Then the "add" button should not be present
     Then the "Delete" button should not be present
     Then close the browser
@@ -118,8 +118,8 @@ Feature: Permission Enforcement
   Scenario: Create New Page
     Given user is logged in as "User I"
     Given user is on the "Create New" page
-    Then the "Vocabulary A" radio button should not be present
-    Then the "Vocabulary B" radio button should not be present
+    Then the "Vocabulary A" radio button should "not be" present
+    Then the "Vocabulary B" radio button should "not be" present
     Then close the browser
 
   #Test63
@@ -164,7 +164,7 @@ Feature: Permission Enforcement
   Scenario: Create New Page, Search and Edit Functionality, Predictive text in READ record
     Given user is logged in as "User II"
     Given user is on the "Create New" page
-    Then the "Vocabulary B" radio button should not be present
+    Then the "Vocabulary B" radio button should "not be" present
       And selects "Vocabulary B" from the top nav search record type select field
       And clicks on the top nav search submit button
       And clicks on a vocabulary term
@@ -174,7 +174,7 @@ Feature: Permission Enforcement
       And selects "Record Type B" from the top nav search record type select field
       And clicks on the top nav search submit button
       And clicks on a "Record Type B" record
-    Then the record should be read only
+    Then the record should be in "Read Only" mode
       And clicks on "Terms Used"
     Then the vocabulary is successfully loaded
     Then the vocabulary should be in "read only" mode
@@ -228,7 +228,7 @@ Feature: Permission Enforcement
       And clicks on a "Record Type B" record
       And finds a "Vocabulary A" vocab term
     Then the "Used Terms" list should contain the vocabulary term
-    Then the record should be read only
+    Then the record should be in "Read Only" mode
       And clicks the link to the vocabulary term
     Then the vocabulary term is successfully loaded
     Then close the browser

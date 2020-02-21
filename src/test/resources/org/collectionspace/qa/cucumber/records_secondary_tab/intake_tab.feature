@@ -31,8 +31,8 @@ Feature: Intake Tab
     Then the search results should contain "041319951.2" 
     Then the search results should contain "041319951.3"
 
-    And selects the box with result "041319951.3"  
-    And selects the box with result "041319951.2"  
+    And selects the box with result "041319951.3" 
+    And selects the box with result "041319951.2" 
     And clicks the "Add to current record" button 
     Then the dialog should be dismissed
 

@@ -40,7 +40,7 @@ Feature: Valuation Tab
 	    Then the search results should contain "CQA116.2" 
 
 	    And selects the box with result "CQA116.3" 
-	    And selects the box with result "CQA116.2"  
+	    And selects the box with result "CQA116.2" 
 	    And clicks the "Add to current record" button  
 
 	    #Expected, Group #1

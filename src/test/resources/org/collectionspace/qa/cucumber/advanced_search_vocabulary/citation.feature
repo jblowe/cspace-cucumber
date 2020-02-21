@@ -1,6 +1,6 @@
 # Created by Regina Xu on 2/26/16
 
-@advancedsearchvocab
+@advancedsearchvocab @citation
 Feature: Advanced Search - Citation 
 
 ## The remainder of this feature file, below, needs to be converted from narrative to steps

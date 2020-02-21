@@ -39,7 +39,7 @@ Feature: Exhibition Planning Tab
         Then the search results should contain "CQA105.2" 
 
         And selects the box with result "CQA105.3" 
-        And selects the box with result "CQA105.2"  
+        And selects the box with result "CQA105.2" 
         And clicks the "Add to current record" button
 
         #Expected, Group #1

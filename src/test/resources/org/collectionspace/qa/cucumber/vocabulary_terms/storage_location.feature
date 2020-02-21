@@ -296,9 +296,9 @@ Feature: Storage Location Authority Page
 #         From Create New screen, create a new Storage Location.
 #         Enter "Cellar Crypt" in the Display Name field
 #         Create a second repeatable term block
-#         Enter "Cellar" in the second Display Name field
+#         Enter "Cellar" in the "second" Display Name field
 #         Create a third repeatable term block
-#         Enter "Crypt" in the third Display Name field
+#         Enter "Crypt" in the "third" Display Name field
 #         Mark "Cellar" as preferred
 #         Save the record
 #         Create a new Location/Movement/Inventory record
@@ -331,9 +331,9 @@ Feature: Storage Location Authority Page
 #         From Create New screen, create a new Storage Location.
 #         Enter "Basement" in the Display Name field
 #         Create a second repeatable term block
-#         Enter "Cellar" in the second Display Name field
+#         Enter "Cellar" in the "second" Display Name field
 #         Create a third repeatable term block
-#         Enter "Cellar Crypt" in the third Display Name field
+#         Enter "Cellar Crypt" in the "third" Display Name field
 #         Mark "Cellar" as preferred
 #         Save the record
 #         Create a new Location/Movement/Inventory record

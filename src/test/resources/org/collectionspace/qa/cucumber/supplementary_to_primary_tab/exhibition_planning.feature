@@ -69,23 +69,23 @@ Feature: Supplementary Manual QA - Exhibition Planning
       And selects the "Exhibition" radio button on the Create New page
       And clicks on the Create button
     Given user clicks on the "Fold" symbol next to "Exhibition Information"
-    Then the "Exhibition Information" section should fold
-    Then the "Fold" symbol next to "Exhibition Information" should be a folded symbol
+    Then the "Exhibition Information" section should "fold"
+    Then the "Fold" symbol next to "Exhibition Information" should be a "folded" symbol
     Given user clicks on the "Fold" symbol next to "Exhibition Information"
-    Then the "Exhibition Information" section should unfold
-    Then the "Fold" symbol next to "Exhibition Information" should be an unfolded symbol
+    Then the "Exhibition Information" section should "unfold"
+    Then the "Fold" symbol next to "Exhibition Information" should be a "unfolded" symbol
     Given user clicks on the "Fold" symbol next to "Exhibition Planning Information"
-    Then the "Exhibition Planning Information" section should fold
-    Then the "Fold" symbol next to "Exhibition Planning Information" should be a folded symbol
+    Then the "Exhibition Planning Information" section should "fold"
+    Then the "Fold" symbol next to "Exhibition Planning Information" should be a "folded" symbol
     Given user clicks on the "Fold" symbol next to "Exhibition Planning Information"
-    Then the "Exhibition Planning Information" section should unfold
-    Then the "Fold" symbol next to "Exhibition Planning Information" should be an unfolded symbol
+    Then the "Exhibition Planning Information" section should "unfold"
+    Then the "Fold" symbol next to "Exhibition Planning Information" should be a "unfolded" symbol
     Given user clicks on the "Fold" symbol next to "Exhibited Object Information"
-    Then the "Exhibited Object Information" section should fold
-    Then the "Fold" symbol next to "Exhibited Object Information" should be a folded symbol
+    Then the "Exhibited Object Information" section should "fold"
+    Then the "Fold" symbol next to "Exhibited Object Information" should be a "folded" symbol
     Given user clicks on the "Fold" symbol next to "Exhibited Object Information"
-    Then the "Exhibited Object Information" section should unfold
-    Then the "Fold" symbol next to "Exhibited Object Information" should be an unfolded symbol
+    Then the "Exhibited Object Information" section should "unfold"
+    Then the "Fold" symbol next to "Exhibited Object Information" should be a "unfolded" symbol
     Then close the browser
 
   Scenario: Vocabulary Pivoting

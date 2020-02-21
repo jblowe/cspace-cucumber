@@ -44,8 +44,8 @@ Feature: Person Vocabulary Data Entry
     Then "<place of death>" should be in the "Person" "Place of Death" field
     Then "This person \n was a steel-drivin' man" should be in the "Person" "Biographical Note" field
     Then "Hallowed \n Provenance" should be in the "Person" "Name Notes" field
-    Then "<school/style2>" should be in the second "Person" "School/Style" field
-    Then "<occupation2>" should be in the second "Person" "Occupation" field
+    Then "<school/style2>" should be in the "second" "Person" "School/Style" field
+    Then "<occupation2>" should be in the "second" "Person" "Occupation" field
     Then close the browser
 
 #Test 9
@@ -55,7 +55,7 @@ Feature: Person Vocabulary Data Entry
       And clicks on the plus to repeat the "Person Term Group" form 
     Then the new "Person Term Group" forms should alternate between dark and light shading
       And clicks on the plus to repeat the "Address" form
-      And clicks on the plug to repeat the "Address" form
+      And clicks on the plus to repeat the "Address" form
     Then the new "Address" forms should alternate between dark and light shading
     Then close the browser
 
@@ -111,7 +111,7 @@ Feature: Person Vocabulary Data Entry
       And enters "Tentative Change" in the "Person" "Display name" field
       And clicks on "Find and Edit" menu item
     Then a confirmation dialog should appear
-      And clicks cancel button
+      And clicks confirmation cancel button
     Then the dialog should be dismissed
     Then close the browser
 
@@ -178,12 +178,13 @@ Feature: Person Vocabulary Data Entry
       And enters "Mark Twain" in the "Person" "Display Name" field
       And clicks the plus to repeat the "Person Term Group" form
     Then an additional "Person Term Group" record should be present
-      And adds "Samuel Clemens" in the "Display Name" field of the second "Person Term Group" form
+      And adds "Samuel Clemens" in the "Display Name" field of the "second" "Person Term Group" form
       And clicks the plus to repeat the "Person Term Group" form
-      And adds "Samuel Langhorne Clemens" in the "Display Name" field of the third "Person Term Group" form
+      And adds "Samuel Langhorne Clemens" in the "Display Name" field of the "third" "Person Term Group" form
 # Uncertain stepdef 
-      And marks the second "Person Term Group" form as preferred
-      And clicks the "Save" button
+      And marks the "second" "Person Term Group" form as preferred
+      And saves the record
+
 # Uncertain stepdef 
       And navigates to the "Create New" page
       And selects the "Loan In" radio button on the Create New page
@@ -212,12 +213,13 @@ Feature: Person Vocabulary Data Entry
       And enters "Mark Twain" in the "Person" "Display Name" field
       And clicks the plus to repeat the "Person Term Group" form
     Then an additional "Person Term Group" record should be present
-      And adds "Samuel Clemens" in the "Display Name" field of the second "Person Term Group" form
+      And adds "Samuel Clemens" in the "Display Name" field of the "second" "Person Term Group" form
       And clicks the plus to repeat the "Person Term Group" form
-      And adds "Samuel Langhorne Clemens" in the "Display Name" field of the third "Person Term Group" form
+      And adds "Samuel Langhorne Clemens" in the "Display Name" field of the "third" "Person Term Group" form
 # Uncertain stepdef 
-      And marks the second "Person Term Group" form as preferred
-      And clicks the "Save" button
+      And marks the "second" "Person Term Group" form as preferred
+      And saves the record
+
 # Uncertain stepdef 
       And navigates to the "Create New" page
       And selects the "Loan In" radio button on the Create New page
@@ -253,14 +255,14 @@ Feature: Person Vocabulary Data Entry
 # Uncertain stepdef
       And adds "Foo Parents" to Local Persons from dropdown in "Narrower Context" row
       And clicks the plus to repeat the "Person" "Narrower Context" field
-      And enters "Foo Kids" in the second "Person" "Narrower Context" field
-    Then a drop down list should appear in the second "Narrower Context" row
+      And enters "Foo Kids" in the "second" "Person" "Narrower Context" field
+    Then a drop down list should appear in the "second" "Narrower Context" row
 # Uncertain stepdef
       And adds "Foo Kids" to Local Persons from dropdown in second "Narrower Context" row
       And clicks the "Save" button
     Then "Foo Clan" should be in the "Person" "Broader Context" field
     Then "Foo Family" should be in the "Person" "Narrower Context" field
-    Then "Foo Kids" should be in the second "Person" "Narrower Context" field
+    Then "Foo Kids" should be in the "second" "Person" "Narrower Context" field
 # Uncertain stepdef
     Then the record should not contain the "Person" "Equivalent Context" field
 # Uncertain stepdef
@@ -271,24 +273,24 @@ Feature: Person Vocabulary Data Entry
 # Uncertain stepdef
       And adds "Johnny Foo" to Local Persons from dropdown in "Narrower Context" row
       And clicks the plus to repeat the "Person" "Narrower Context" field
-      And enters "Sally Foo" in the second "Person" "Narrower Context" field
-    Then a drop down list should appear in the second "Narrower Context" row
+      And enters "Sally Foo" in the "second" "Person" "Narrower Context" field
+    Then a drop down list should appear in the "second" "Narrower Context" row
 # Uncertain stepdef
       And adds "Sally Foo" to Local Persons from dropdown in second "Narrower Context" row
       And clicks the "Save" button
     Then "Johnny Foo" should be in the "Person" "Narrower Context" field
-    Then "Sally Foo" should be in the second "Person" "Narrower Context" field
+    Then "Sally Foo" should be in the "second" "Person" "Narrower Context" field
     Then "Foo Parents" should be in the "Person" "Equivalent Context" field
 # Uncertain stepdef
     Then the "Person" "Equivalent Context" field should be read only
       And clicks the plus to repeat the "Person" "Narrower Context" field
-      And enters "Cindy Loo Foo" in the third "Person" "Narrower Context" field
-    Then a drop down list should appear in the third "Narrower Context" row
+      And enters "Cindy Loo Foo" in the "third" "Person" "Narrower Context" field
+    Then a drop down list should appear in the "third" "Narrower Context" row
 # Uncertain stepdef
       And adds "Cindy Loo Foo" to Local Persons from dropdown in second "Narrower Context" row
       And clicks the "Save" button
     Then "Foo Kids" should be in the "Person" "Broader Context" field
-    Then "Cindy Loo Foo" should be in the third "Person" "Narrower Context" field
+    Then "Cindy Loo Foo" should be in the "third" "Person" "Narrower Context" field
       And enters "Sally Foo" in the top nav search field
       And selects "Person" from the top nav search record type select field
       And clicks on the top nav search submit button

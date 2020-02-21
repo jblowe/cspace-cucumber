@@ -39,7 +39,7 @@ Feature: Supplementary Manual QA - Acquisition
     Then the titlebar should contain "1234"
     Then the titlebar should contain "Berkley Publishing Group"
       And clicks the plus to repeat the "Acquisition Source" form
-      And adds "Chemtoy Corporation" in the "Acquisition Source" field of the second "Acquisition Source" form
+      And adds "Chemtoy Corporation" in the "Acquisition Source" field of the "second" "Acquisition Source" form
       And selects the additional "Acquisition Source" as primary
     Then the titlebar should contain "1234"
     Then the titlebar should contain "Chemtoy Corporation"
@@ -80,17 +80,17 @@ Feature: Supplementary Manual QA - Acquisition
       And selects the "Acquisition" radio button on the Create New page
       And clicks on the Create button
     Given user clicks on the "Fold" symbol next to "Acquisition Information"
-    Then the "Acquisition Information" section should fold
-    Then the "Fold" symbol next to "Acquisition Information" should be a folded symbol
+    Then the "Acquisition Information" section should "fold"
+    Then the "Fold" symbol next to "Acquisition Information" should be a "folded" symbol
     Given user clicks on the "Fold" symbol next to "Acquisition Information"
-    Then the "Acquisition Information" section should unfold
-    Then the "Fold" symbol next to "Acquisition Information" should be an unfolded symbol
+    Then the "Acquisition Information" section should "unfold"
+    Then the "Fold" symbol next to "Acquisition Information" should be a "unfolded" symbol
     Given user clicks on the "Fold" symbol next to "Object Collection Information"
-    Then the "Object Collection Information" section should fold
-    Then the "Fold" symbol next to "Object Collection Information" should be a folded symbol
+    Then the "Object Collection Information" section should "fold"
+    Then the "Fold" symbol next to "Object Collection Information" should be a "folded" symbol
     Given user clicks on the "Fold" symbol next to "Object Collection Information"
-    Then the "Object Collection Information" section should unfold
-    Then the "Fold" symbol next to "Object Collection Information" should be an unfolded symbol
+    Then the "Object Collection Information" section should "unfold"
+    Then the "Fold" symbol next to "Object Collection Information" should be a "unfolded" symbol
     Then close the browser
 
   Scenario: Vocabulary Pivoting

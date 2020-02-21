@@ -77,11 +77,11 @@ Feature: Supplementary Manual QA - Loan Out
       And selects the "Loan Out" radio button on the Create New page
       And clicks on the Create button
     Given user clicks on the "Fold" symbol next to "Loans In Information"
-    Then the "Loans Out Information" section should fold
-    Then the "Fold" symbol next to "Loans Out Information" should be a folded symbol
+    Then the "Loans Out Information" section should "fold"
+    Then the "Fold" symbol next to "Loans Out Information" should be a "folded" symbol
     Given user clicks on the "Fold" symbol next to "Loans Out Information"
-    Then the "Loans Out Information" section should unfold
-    Then the "Fold" symbol next to "Loans Out Information" should be an unfolded symbol
+    Then the "Loans Out Information" section should "unfold"
+    Then the "Fold" symbol next to "Loans Out Information" should be a "unfolded" symbol
     Then close the browser
 
   Scenario: Vocabulary Pivoting

@@ -69,23 +69,23 @@ Feature: Supplementary Manual QA - Condition Check
       And selects the "Condition Check" radio button on the Create New page
       And clicks on the Create button
     Given user clicks on the "Fold" symbol next to "Object Condition and Technical Assessment Information"
-    Then the "Object Condition and Technical Assessment Information" section should fold
-    Then the "Fold" symbol next to "Object Condition and Technical Assessment Information" should be a folded symbol
+    Then the "Object Condition and Technical Assessment Information" section should "fold"
+    Then the "Fold" symbol next to "Object Condition and Technical Assessment Information" should be a "folded" symbol
     Given user clicks on the "Fold" symbol next to "Object Condition and Technical Assessment Information"
-    Then the "Object Condition and Technical Assessment Information" section should unfold
-    Then the "Fold" symbol next to "Object Condition and Technical Assessment Information" should be an unfolded symbol
+    Then the "Object Condition and Technical Assessment Information" section should "unfold"
+    Then the "Fold" symbol next to "Object Condition and Technical Assessment Information" should be a "unfolded" symbol
     Given user clicks on the "Fold" symbol next to "Condition Check/Technical Assessment Information"
-    Then the "Condition Check/Technical Assessment Information" section should fold
-    Then the "Fold" symbol next to "Condition Check/Technical Assessment Information" should be a folded symbol
+    Then the "Condition Check/Technical Assessment Information" section should "fold"
+    Then the "Fold" symbol next to "Condition Check/Technical Assessment Information" should be a "folded" symbol
     Given user clicks on the "Fold" symbol next to "Condition Check/Technical Assessment Information"
-    Then the "Condition Check/Technical Assessment Information" section should unfold
-    Then the "Fold" symbol next to "Condition Check/Technical Assessment Information" should be an unfolded symbol
+    Then the "Condition Check/Technical Assessment Information" section should "unfold"
+    Then the "Fold" symbol next to "Condition Check/Technical Assessment Information" should be a "unfolded" symbol
     Given user clicks on the "Fold" symbol next to "Object Requirement Information"
-    Then the "Object Requirement Information" section should fold
-    Then the "Fold" symbol next to "Object Requirement Information" should be a folded symbol
+    Then the "Object Requirement Information" section should "fold"
+    Then the "Fold" symbol next to "Object Requirement Information" should be a "folded" symbol
     Given user clicks on the "Fold" symbol next to "Object Requirement Information"
-    Then the "Object Requirement Information" section should unfold
-    Then the "Fold" symbol next to "Object Requirement Information" should be an unfolded symbol
+    Then the "Object Requirement Information" section should "unfold"
+    Then the "Fold" symbol next to "Object Requirement Information" should be a "unfolded" symbol
 
   Scenario: Vocabulary Pivoting
     Given user is on the "Create New" page

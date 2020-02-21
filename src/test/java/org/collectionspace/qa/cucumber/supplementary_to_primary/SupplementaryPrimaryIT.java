@@ -1,4 +1,4 @@
-package org.collectionspace.qa.cucumber.supplementary_to_primary;
+package org.collectionspace.qa.cucumber.supplementary_to_primary_tab;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;

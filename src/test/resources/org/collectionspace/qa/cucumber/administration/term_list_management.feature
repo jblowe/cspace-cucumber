@@ -39,7 +39,7 @@ Feature: Term List Management
     Then the term's status should be displayed as "Active"
       And navigates to a procedure containing the term list
       And clicks relevant field
-    Then the dropdown should contain the term
+    Then the dropdown should contain the term list
     Then the term list "should" be clickable
     Then close the browser
 

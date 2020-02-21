@@ -102,13 +102,13 @@ Feature: Loan In Page Testing
     And clicks on the delete button 
 
     Then a delete confirmation dialog should appear
-    When user clicks cancel button
+    When user clicks confirmation cancel button
     Then the delete confirmation dialog should disappear
     # And #nothing else should happen
     And clicks on the delete button 
 
     Then a delete confirmation dialog should appear
-    When user clicks close button
+    When user clicks confirmation close button
     Then the delete confirmation dialog should disappear
     # And #nothing else should happen
     And clicks on the delete button 
@@ -140,14 +140,14 @@ Feature: Loan In Page Testing
 
     Then the deletion should be confirmed in a dialog
     And the deletion dialog should contain "and its relationships"
-    When user clicks cancel button
+    When user clicks confirmation cancel button
     Then the delete confirmation dialog should disappear
     # And #nothing else should happen
     And clicks on the delete button 
 
     Then a delete confirmation dialog should appear
     And the deletion dialog should contain "and its relationships"
-    When user clicks close button
+    When user clicks confirmation close button
     Then the delete confirmation dialog should disappear
     # And #nothing else should happen
     And clicks on the delete button 
@@ -168,11 +168,11 @@ Feature: Loan In Page Testing
     And selects the "Loan In" radio button on the Create New page
     And clicks on the Create button
     And clicks on the "Fold" symbol next to "Loans In Information"
-    Then the "Loans In Information" section should fold
-    And the "Fold" symbol next to "Loans In Information" should be a folded symbol
+    Then the "Loans In Information" section should "fold"
+    And the "Fold" symbol next to "Loans In Information" should be a "folded" symbol
     When user clicks on the "Fold" symbol next to "Loans In Information"
-    Then the "Loans In Information" section should unfold
-    And the "Fold" symbol next to "Loans In Information" should be an unfolded symbol
+    Then the "Loans In Information" section should "unfold"
+    And the "Fold" symbol next to "Loans In Information" should be a "unfolded" symbol
     And close the browser
 
 #Warnings

@@ -36,7 +36,7 @@ Feature: Media Handling Page Tab
 	    Then the search results should contain "CQA114.2" 
 
 	    And selects the box with result "CQA114.3" 
-	    And selects the box with result "CQA114.2"  
+	    And selects the box with result "CQA114.2" 
 	    And clicks the "Add to current record" button  
 
 	    #Expected, Group #1

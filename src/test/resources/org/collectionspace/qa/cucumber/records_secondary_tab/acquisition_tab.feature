@@ -38,7 +38,7 @@ Feature: Acquisition Tab
         Then the search results should contain "CQA93.2" 
 
         And selects the box with result "CQA93.3" 
-        And selects the box with result "CQA93.2"  
+        And selects the box with result "CQA93.2" 
         And clicks the "Add to current record" button  
 
         #Expected, Group #1

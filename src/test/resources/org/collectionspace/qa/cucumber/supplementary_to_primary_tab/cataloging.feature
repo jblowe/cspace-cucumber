@@ -40,7 +40,7 @@ Feature: Supplementary Manual QA - Cataloging
     Then the titlebar should contain "sample"
       And clicks the plus to repeat the "Title" form
       # not sure if following line works
-      And adds "sample2" in the "Title" field of the second "Title" form
+      And adds "sample2" in the "Title" field of the "second" "Title" form
       And selects the additional "Title" as primary
     Then the titlebar should contain "1234"
     Then the titlebar should contain "sample2"
@@ -84,59 +84,59 @@ Feature: Supplementary Manual QA - Cataloging
     Given user is on the "Create New" page
       And clicks on the Create button
     Given user clicks on the "Fold" symbol next to "Object Identification Information"
-    Then the "Object Collection Information" section should fold
-    Then the "Fold" symbol next to "Object Collection Information" should be a folded symbol
+    Then the "Object Collection Information" section should "fold"
+    Then the "Fold" symbol next to "Object Collection Information" should be a "folded" symbol
     Given user clicks on the "Fold" symbol next to "Object Identification Information"
-    Then the "Object Collection Information" section should unfold
-    Then the "Fold" symbol next to "Object Collection Information" should be an unfolded symbol
+    Then the "Object Collection Information" section should "unfold"
+    Then the "Fold" symbol next to "Object Collection Information" should be a "unfolded" symbol
     Given user clicks on the "Fold" symbol next to "Object Description Information"
-    Then the "Object Description Information" section should fold
-    Then the "Fold" symbol next to "Object Description Information" should be a folded symbol
+    Then the "Object Description Information" section should "fold"
+    Then the "Fold" symbol next to "Object Description Information" should be a "folded" symbol
     Given user clicks on the "Fold" symbol next to "Object Description Information"
-    Then the "Object Description Information" section should unfold
-    Then the "Fold" symbol next to "Object Description Information" should be an unfolded symbol
+    Then the "Object Description Information" section should "unfold"
+    Then the "Fold" symbol next to "Object Description Information" should be a "unfolded" symbol
     Given user clicks on the "Fold" symbol next to "Object Production Information"
-    Then the "Object Production Information" section should fold
-    Then the "Fold" symbol next to "Object Production Information" should be a folded symbol
+    Then the "Object Production Information" section should "fold"
+    Then the "Fold" symbol next to "Object Production Information" should be a "folded" symbol
     Given user clicks on the "Fold" symbol next to "Object Production Information"
-    Then the "" section should unfold
-    Then the "Fold" symbol next to "Object Production Information" should be an unfolded symbol
+    Then the "" section should "unfold"
+    Then the "Fold" symbol next to "Object Production Information" should be a "unfolded" symbol
     Given user clicks on the "Fold" symbol next to "Object History and Association Information"
-    Then the "Object History and Association Information" section should fold
-    Then the "Fold" symbol next to "Object History and Association Information" should be a folded symbol
+    Then the "Object History and Association Information" section should "fold"
+    Then the "Fold" symbol next to "Object History and Association Information" should be a "folded" symbol
     Given user clicks on the "Fold" symbol next to "Object History and Association Information"
-    Then the "" section should unfold
-    Then the "Fold" symbol next to "Object History and Association Information" should be an unfolded symbol
+    Then the "" section should "unfold"
+    Then the "Fold" symbol next to "Object History and Association Information" should be a "unfolded" symbol
     Given user clicks on the "Fold" symbol next to "Object Owner's Contribution Information"
-    Then the "" section should fold
-    Then the "Fold" symbol next to "Object Owner's Contribution Information" should be a folded symbol
+    Then the "" section should "fold"
+    Then the "Fold" symbol next to "Object Owner's Contribution Information" should be a "folded" symbol
     Given user clicks on the "Fold" symbol next to "Object Owner's Contribution Information"
-    Then the "" section should unfold
-    Then the "Fold" symbol next to "Object Owner's Contribution Information" should be an unfolded symbol
+    Then the "" section should "unfold"
+    Then the "Fold" symbol next to "Object Owner's Contribution Information" should be a "unfolded" symbol
     Given user clicks on the "Fold" symbol next to "Object Viewer's Contribution Information"
-    Then the "Object Viewer's Contribution Information" section should fold
-    Then the "Fold" symbol next to "Object Viewer's Contribution Information" should be a folded symbol
+    Then the "Object Viewer's Contribution Information" section should "fold"
+    Then the "Fold" symbol next to "Object Viewer's Contribution Information" should be a "folded" symbol
     Given user clicks on the "Fold" symbol next to "Object Viewer's Contribution Information"
-    Then the "" section should unfold
-    Then the "Fold" symbol next to "Object Viewer's Contribution Information" should be an unfolded symbol
+    Then the "" section should "unfold"
+    Then the "Fold" symbol next to "Object Viewer's Contribution Information" should be a "unfolded" symbol
     Given user clicks on the "Fold" symbol next to "Reference Information"
-    Then the "Reference Information" section should fold
-    Then the "Fold" symbol next to "Reference Information" should be a folded symbol
+    Then the "Reference Information" section should "fold"
+    Then the "Fold" symbol next to "Reference Information" should be a "folded" symbol
     Given user clicks on the "Fold" symbol next to "Reference Information"
-    Then the "Reference Information" section should unfold
-    Then the "Fold" symbol next to "Reference Information" should be an unfolded symbol
+    Then the "Reference Information" section should "unfold"
+    Then the "Fold" symbol next to "Reference Information" should be a "unfolded" symbol
     Given user clicks on the "Fold" symbol next to "Object Collection Information"
-    Then the "Object Collection Information" section should fold
-    Then the "Fold" symbol next to "Object Collection Information" should be a folded symbol
+    Then the "Object Collection Information" section should "fold"
+    Then the "Fold" symbol next to "Object Collection Information" should be a "folded" symbol
     Given user clicks on the "Fold" symbol next to "Object Collection Information"
-    Then the "Object Collection Information" section should unfold
-    Then the "Fold" symbol next to "Object Collection Information" should be an unfolded symbol
+    Then the "Object Collection Information" section should "unfold"
+    Then the "Fold" symbol next to "Object Collection Information" should be a "unfolded" symbol
     Given user clicks on the "Fold" symbol next to "Object Hierarchy"
-    Then the "Object Hierarchy" section should fold
-    Then the "Fold" symbol next to "Object Hierarchy" should be a folded symbol
+    Then the "Object Hierarchy" section should "fold"
+    Then the "Fold" symbol next to "Object Hierarchy" should be a "folded" symbol
     Given user clicks on the "Fold" symbol next to "Object Hierarchy"
-    Then the "Object Hierarchy" section should unfold
-    Then the "Fold" symbol next to "Object Hierarchy" should be an unfolded symbol
+    Then the "Object Hierarchy" section should "unfold"
+    Then the "Fold" symbol next to "Object Hierarchy" should be a "unfolded" symbol
     Then close the browser
 
   Scenario: Alternating Shading for Repeated Groups

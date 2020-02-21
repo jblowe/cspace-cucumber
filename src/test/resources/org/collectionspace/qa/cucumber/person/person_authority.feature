@@ -91,7 +91,7 @@ Feature: Person Vocabulary Data Entry
       Then the titlebar should contain "James Earl Jones"		
         And clicks the plus to repeat the "Person Term Group" form		
       Then an additional "Person Term Group" record should be present		
-        And adds "JEJ" in the "Display Name" field of the second "Person Term Group" form		
+        And adds "JEJ" in the "Display Name" field of the "second" "Person Term Group" form		
         And selects the additional "Person Term Group" as primary		
       Then the titlebar should contain "JEJ"		
       Then close the browser		

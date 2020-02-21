@@ -5,7 +5,7 @@ Feature: Right Frame - Show Related Records
 
 
   Scenario: Show Related Records
-    Given user is in a blank "Acquisition" record
+    Given user is on a blank "Acquisition" record
     And enters "CQA16.1" in the "Acquisition Reference Number" field
     And clicks the "Save" button
     Then the "Show" button in the "Cataloging" area should be disabled
@@ -34,7 +34,7 @@ Feature: Right Frame - Show Related Records
     Then close the browser
 
   Scenario: Record Deletion for Recycling
-    Given user is in the "Create New" page
+    Given user is on the "Create New" page
     And navigates to the record with identification number "CQA16.1"
     And clicks on the delete button 
 

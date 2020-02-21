@@ -40,7 +40,7 @@ Feature: Supplementary Manual QA - Loan In
     Then the titlebar should contain "Woody Allen"
       And clicks the plus to repeat the "Lender" form
       # not sure if following line works
-      And adds "Woodrow Wilson" in the "Lender" field of the second "Lender" form
+      And adds "Woodrow Wilson" in the "Lender" field of the "second" "Lender" form
       And selects the additional "Lender" as primary
     Then the titlebar should contain "1234"
     Then the titlebar should contain "Woodrow Wilson"
@@ -88,11 +88,11 @@ Feature: Supplementary Manual QA - Loan In
       And selects the "Loan In" radio button on the Create New page
       And clicks on the Create button
     Given user clicks on the "Fold" symbol next to "Loans In Information"
-    Then the "Loans In Information" section should fold
-    Then the "Fold" symbol next to "Loans In Information" should be a folded symbol
+    Then the "Loans In Information" section should "fold"
+    Then the "Fold" symbol next to "Loans In Information" should be a "folded" symbol
     Given user clicks on the "Fold" symbol next to "Loans In Information"
-    Then the "Loans In Information" section should unfold
-    Then the "Fold" symbol next to "Loans In Information" should be an unfolded symbol
+    Then the "Loans In Information" section should "unfold"
+    Then the "Fold" symbol next to "Loans In Information" should be a "unfolded" symbol
     Then close the browser
 
   Scenario: Vocabulary Pivoting

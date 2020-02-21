@@ -38,7 +38,7 @@ Feature: Condition Check Tab Test Plan
         Then the search results should contain "CQA103.2" 
 
         And selects the box with result "CQA103.3" 
-        And selects the box with result "CQA103.2"  
+        And selects the box with result "CQA103.2" 
         And clicks the "Add to current record" button
 
         #Expected, Group #1

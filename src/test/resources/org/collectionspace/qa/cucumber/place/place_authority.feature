@@ -2,7 +2,6 @@
 
 @place
 Feature: Place Authority Data Entry
-
   Scenario: User Creates a minimal Basic Place record
     Given user is on the "Create New" page
     And selects the "Place" radio button on the Create New page

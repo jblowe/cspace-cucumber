@@ -6,7 +6,7 @@ Feature: Advanced Search - Object Exit
   #Test1
   Scenario: Advanced Search Fields
     Given user is on the "Create New" page
-      And selects the "Object Exit" radio button on the Create New Page
+      And selects the "Object Exit" radio button
       And clicks on the Create button
     Then the titlebar should contain "Object Exit"
       And enters "desiderium" in the "Object Exit" "Exit Number" field

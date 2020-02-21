@@ -39,7 +39,7 @@ Feature: Object Exit Page Tab
 	    Then the search results should contain "CQA115.2" 
 
 	    And selects the box with result "CQA115.3" 
-	    And selects the box with result "CQA115.2"  
+	    And selects the box with result "CQA115.2" 
 	    And clicks the "Add to current record" button  
 
 	    #Expected, Group #1

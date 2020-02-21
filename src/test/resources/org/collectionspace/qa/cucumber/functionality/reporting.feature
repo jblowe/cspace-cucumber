@@ -20,11 +20,11 @@ Feature: Reporting
       And clicks the "Run" button
   # lack of confirmation dialog stepdefs
     Then a confirmation dialog should appear
-      And clicks the "Cancel" button in the confirmation dialog
+      And clicks the confirmation cancel button
     Then the dialog should be dismissed
       And clicks the "Run" button
     Then a confirmation dialog should appear
-      And clicks the close symbol in the confirmation dialog
+      And clicks the confirmation close button
     Then the dialog should be dismissed
       And clicks the "Run" button
     Then a confirmation dialog should appear

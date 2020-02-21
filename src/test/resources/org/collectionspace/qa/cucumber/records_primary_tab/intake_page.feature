@@ -88,13 +88,13 @@ Feature: Intake Page Testing
     And clicks on the delete button 
 
     Then a delete confirmation dialog should appear
-    When user clicks cancel button
+    When user clicks confirmation cancel button
     Then the delete confirmation dialog should disappear
     # And #nothing else should happen
     And clicks on the delete button 
 
     Then a delete confirmation dialog should appear
-    When user clicks close button
+    When user clicks confirmation close button
     Then the delete confirmation dialog should disappear
     # And #nothing else should happen
     And clicks on the delete button 
@@ -125,14 +125,14 @@ Feature: Intake Page Testing
 
     Then the deletion should be confirmed in a dialog
     And the deletion dialog should contain "and its relationships"
-    When user clicks cancel button
+    When user clicks confirmation cancel button
     Then the delete confirmation dialog should disappear
     # And #nothing else should happen
     And clicks on the delete button 
 
     Then a delete confirmation dialog should appear
     And the deletion dialog should contain "and its relationships"
-    When user clicks close button
+    When user clicks confirmation close button
     Then the delete confirmation dialog should disappear
     # And #nothing else should happen
     And clicks on the delete button 
@@ -153,41 +153,41 @@ Feature: Intake Page Testing
     And selects the "Intake" radio button on the Create New page
     And clicks on the Create button
     And clicks on the "Fold" symbol next to "Object Entry Information"
-    Then the "Object Entry Information" section should fold
-    And the "Fold" symbol next to "Object Entry Information" should be a folded symbol
+    Then the "Object Entry Information" section should "fold"
+    And the "Fold" symbol next to "Object Entry Information" should be a "folded" symbol
     When user clicks on the "Fold" symbol next to "Object Entry Information"
-    Then the "Object Entry Information" section should unfold
-    And the "Fold" symbol next to "Object Entry Information" should be an unfolded symbol
+    Then the "Object Entry Information" section should "unfold"
+    And the "Fold" symbol next to "Object Entry Information" should be a "unfolded" symbol
     When user clicks on the "Fold" symbol next to "Object Collection Information"
-    Then the "Object Collection Information" section should fold
-    And the "Fold" symbol next to "Object Collection Information" should be a folded symbol
+    Then the "Object Collection Information" section should "fold"
+    And the "Fold" symbol next to "Object Collection Information" should be a "folded" symbol
     When user clicks on the "Fold" symbol next to "Object Collection Information"
-    Then the "Object Collection Information" section should unfold
-    And the "Fold" symbol next to "Object Collection Information" should be an unfolded symbol
+    Then the "Object Collection Information" section should "unfold"
+    And the "Fold" symbol next to "Object Collection Information" should be a "unfolded" symbol
     When user clicks on the "Fold" symbol next to "Valuation"
-    Then the "Valuation" section should fold
-    And the "Fold" symbol next to "Valuation" should be a folded symbol
+    Then the "Valuation" section should "fold"
+    And the "Fold" symbol next to "Valuation" should be a "folded" symbol
     When user clicks on the "Fold" symbol next to "Valuation"
-    Then the "Valuation" section should unfold
-    And the "Fold" symbol next to "Valuation" should be an unfolded symbol
+    Then the "Valuation" section should "unfold"
+    And the "Fold" symbol next to "Valuation" should be a "unfolded" symbol
     When user clicks on the "Fold" symbol next to "Insurance"
-    Then the "Insurance" section should fold
-    And the "Fold" symbol next to "Insurance" should be a folded symbol
+    Then the "Insurance" section should "fold"
+    And the "Fold" symbol next to "Insurance" should be a "folded" symbol
     When user clicks on the "Fold" symbol next to "Insurance"
-    Then the "Insurance" section should unfold
-    And the "Fold" symbol next to "Insurance" should be an unfolded symbol
+    Then the "Insurance" section should "unfold"
+    And the "Fold" symbol next to "Insurance" should be a "unfolded" symbol
     When user clicks on the "Fold" symbol next to "Location"
-    Then the "Location" section should fold
-    And the "Fold" symbol next to "Location" should be a folded symbol
+    Then the "Location" section should "fold"
+    And the "Fold" symbol next to "Location" should be a "folded" symbol
     When user clicks on the "Fold" symbol next to "Location"
-    Then the "Location" section should unfold
-    And the "Fold" symbol next to "Location" should be an unfolded symbol
+    Then the "Location" section should "unfold"
+    And the "Fold" symbol next to "Location" should be a "unfolded" symbol
     When user clicks on the "Fold" symbol next to "Condition"
-    Then the "Condition" section should fold
-    And the "Fold" symbol next to "Condition" should be a folded symbol
+    Then the "Condition" section should "fold"
+    And the "Fold" symbol next to "Condition" should be a "folded" symbol
     When user clicks on the "Fold" symbol next to "Condition"
-    Then the "Condition" section should unfold
-    And the "Fold" symbol next to "Condition" should be an unfolded symbol
+    Then the "Condition" section should "unfold"
+    And the "Fold" symbol next to "Condition" should be a "unfolded" symbol
     And close the browser
 
   ###Warnings###

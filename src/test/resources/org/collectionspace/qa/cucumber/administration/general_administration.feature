@@ -38,6 +38,6 @@ Feature: General Administration
       And enters "Notanemail@notanemail.com" in the "Email" field
       And enters "12341234" in the "Password" field
       And clicks the "Sign In" button
-    Then the Adminstration tab should not appear
+    Then the Administration tab should not appear
 
 

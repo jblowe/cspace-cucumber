@@ -71,23 +71,23 @@ Feature: Supplementary Manual QA - Location-Movement-Inventory
       And selects the "Location/Movement/Inventory" radio button on the Create New page
       And clicks on the Create button
     Given user clicks on the "Fold" symbol next to "Object Location Information"
-    Then the "Object Location Information" section should fold
-    Then the "Fold" symbol next to "Object Location Information" should be a folded symbol
+    Then the "Object Location Information" section should "fold"
+    Then the "Fold" symbol next to "Object Location Information" should be a "folded" symbol
     Given user clicks on the "Fold" symbol next to "Object Location Information"
-    Then the "Object Location Information" section should unfold
-    Then the "Fold" symbol next to "Object Location Information" should be an unfolded symbol
+    Then the "Object Location Information" section should "unfold"
+    Then the "Fold" symbol next to "Object Location Information" should be a "unfolded" symbol
     Given user clicks on the "Fold" symbol next to "Movement Information"
-    Then the "Movement Information" section should fold
-    Then the "Fold" symbol next to "Movement Information" should be a folded symbol
+    Then the "Movement Information" section should "fold"
+    Then the "Fold" symbol next to "Movement Information" should be a "folded" symbol
     Given user clicks on the "Fold" symbol next to "Movement Information"
-    Then the "Movement Information" section should unfold
-    Then the "Fold" symbol next to "Movement Information" should be an unfolded symbol
+    Then the "Movement Information" section should "unfold"
+    Then the "Fold" symbol next to "Movement Information" should be a "unfolded" symbol
     Given user clicks on the "Fold" symbol next to "Inventory Information"
-    Then the "Inventory Information" section should fold
-    Then the "Fold" symbol next to "Inventory Information" should be a folded symbol
+    Then the "Inventory Information" section should "fold"
+    Then the "Fold" symbol next to "Inventory Information" should be a "folded" symbol
     Given user clicks on the "Fold" symbol next to "Inventory Information"
-    Then the "Inventory Information" section should unfold
-    Then the "Fold" symbol next to "Inventory Information" should be an unfolded symbol
+    Then the "Inventory Information" section should "unfold"
+    Then the "Fold" symbol next to "Inventory Information" should be a "unfolded" symbol
     Then close the browser
 
   Scenario: Vocabulary Pivoting

@@ -38,7 +38,7 @@ Feature: #Enter feature name here
         Then the search results should contain "CQA99.2" 
 
         And selects the box with result "CQA99.3" 
-        And selects the box with result "CQA99.2"  
+        And selects the box with result "CQA99.2" 
         And clicks the "Add to current record" button  
 
         #Expected, Group #1
@@ -524,7 +524,7 @@ Feature: #Enter feature name here
         Then the "Field collection place" field should contain "North Temple"
         Then the "Field collection collector" field should contain "Cesar Villalobos"
         Then the "Field collection source" field should contain "Cesar Villalobos"
-        Then the "Field collection event name" field should contain "Temple exploration"    
+        Then the "Field collection event name" field should contain "Temple exploration"   
 
     ### 13
 
@@ -888,7 +888,7 @@ Feature: #Enter feature name here
         Then the "Field collection place" field should contain "North Temple"
         Then the "Field collection collector" field should contain "Cesar Villalobos"
         Then the "Field collection source" field should contain "Cesar Villalobos"
-        Then the "Field collection event name" field should contain "Temple exploration"    
+        Then the "Field collection event name" field should contain "Temple exploration"   
 
         And clicks the "Go To Record" button       
         And clicks the "Delete" button
